@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.primary-image {
+    min-height: 50dvh;
+    background-image: url(https://images.unsplash.com/photo-1585336261022-680e295ce3fe?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-image {
+    min-height: 30dvh;
+    background-image: url(https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%
+}
+
+.primary-image div {
+    height: 1%;
+}
+
+.secondary-image div {
+    height: 1%;
+}
+
+.iconic {
+    max-width: 150px;
+    margin-bottom: 2em;
+}
